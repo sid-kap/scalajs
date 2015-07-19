@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The Scala.js Tutorial</title>
+  </head>
+  <body>
+    <!-- <button id="click-me-button" type="button" onclick="tutorial.webapp.TutorialApp().addClickedMessage()">Click me!</button> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script> -->
+    <script src="d3.min.js" charset="utf-8"></script>
+    <!-- Include Scala.js compiled code -->
+    <script type="text/javascript" src="./target/scala-2.11/scala-js-tutorial-fastopt.js"></script>
+    <!-- Run tutorial.webapp.TutorialApp -->
+    <script type="text/javascript">
+      tutorial.webapp.TutorialApp().main();
+    </script>
+  </body>
+</html>
